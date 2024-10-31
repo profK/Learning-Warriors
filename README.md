@@ -2,7 +2,8 @@
 The learning warriors  project is an attempt to use a runtime-learning Feed Forward Multilayer Perceptron to teach creatrues to fight within UE5
 
 ## PLugins
-There are 3 custom plugins that we wrote for this project:
+There are 3 custom plugins that we wrote for this project. They should be cloned directly into your
+UE5 Plugins direvctory
 
 ### NNEBlueprintInterface
 https://github.com/profK/NNEBlueprintInterface
@@ -25,11 +26,16 @@ https://github.com/profK/GeneticTrainerBPL
 
 This is a blueprint library for evolving scored sets of parameters expressed as a genome of floating point genes
 
+## Test Project
+We wrote a test project that uses the above  plugins to leanr to solve a 1D Linear Equation
+
 ### Linear-Equation-MLP-Test-Content
 https://github.com/profK/Linear-Equation-MLP-Test-Content
 
 This is the Content (specifically the Blueprints) for a test UE project that uses genetic learnning to teach a
-feed foward multi-layer-perceptron how to calculate a 1D linear equation with a known mean and dev.
+feed foward multi-layer-perceptron how to calculate a 1D linear equation with a known mean and dev. 
+You can cloen it directly into the content folder of your own Blue Print UE5 project to run and examine the
+test
 
 ### Demo project
 https://drive.google.com/file/d/1nK9_wSP2rjIpEgjr5aG4h7qkNb3nAtSW/view?usp=sharing
